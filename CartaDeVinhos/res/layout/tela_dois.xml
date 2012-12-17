@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".TelaDois" >
+
+    <TextView
+        android:id="@+id/teladois_textoum"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/tela2_frase1" />
+
+    <ImageView
+        android:id="@+id/tela2_bck_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/teladois_textoum"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/img_desc"
+        android:src="@drawable/btn_ini" />
+
+    <ImageView
+        android:id="@+id/tela2_bck_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tela2_bck_1"
+        android:layout_below="@+id/tela2_bck_1"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/img_desc"
+        android:src="@drawable/btn_ini" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tela2_bck_1"
+        android:layout_alignTop="@+id/tela2_bck_1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/img_desc"
+        android:src="@drawable/tacas" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tela2_bck_2"
+        android:layout_alignTop="@+id/tela2_bck_2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/img_desc"
+        android:src="@drawable/uvinhas" />
+
+    <TextView
+        android:id="@+id/tela2_vinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/tela2_vinho" />
+
+    <TextView
+        android:id="@+id/tela2_uva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/tela2_uva" />
+
+</RelativeLayout>
