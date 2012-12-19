@@ -4,7 +4,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/background2"
     tools:context=".TelaDois" >
-
+
+
+
+
     <TextView
         android:id="@+id/teladois_textoum"
         android:layout_width="370dp"
@@ -14,7 +17,9 @@
         android:layout_marginLeft="55dp"
         android:layout_marginTop="60dp"
         android:text="@string/tela2_frase1" />
-
+
+
+
     <ImageView
         android:id="@+id/tela2_bck_1"
         android:layout_width="wrap_content"
@@ -25,7 +30,8 @@
         android:layout_marginTop="50dp"
         android:contentDescription="@string/img_desc"
         android:src="@drawable/btn_ini" />
-
+
+
     <ImageView
         android:id="@+id/tela2_bck_2"
         android:layout_width="wrap_content"
@@ -57,7 +63,9 @@
         android:layout_marginTop="10dp"
         android:contentDescription="@string/img_desc"
         android:src="@drawable/uvinhas" />
-
+
+
+
     <TextView
         android:id="@+id/tela2_vinho"
         android:layout_width="wrap_content"
@@ -67,7 +75,10 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:text="@string/tela2_vinho" />
-
+
+
+
+
     <TextView
         android:id="@+id/tela2_uva"
         android:layout_width="wrap_content"
