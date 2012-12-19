@@ -10,5 +10,9 @@
     <string name="img_desc">Nenhuma</string>
     <string name="tela2_vinho">Tipo de Vinho</string>
     <string name="tela2_uva">Tipo de Uva</string>
+    <string name="espumantesTipo">Espumantes e Frisantes</string>
+    <string name="brancosSecos">Brancos Secos</string>
+    <string name="tintosSecos">Tintos Secos</string>
+    <string name="vinhosTacas">Vinhos em Taça 187 ml</string>
 
 </resources>

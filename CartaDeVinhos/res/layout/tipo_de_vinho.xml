@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".TipoDeVinho" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/tacas" />
+
+    <TextView
+        android:id="@+id/txtTipoVinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/tela2_vinho" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/btn_ini" />
+
+    <TextView
+        android:id="@+id/txtEspumantesFieldOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/espumantesTipo" />
+    
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/btn_ini" />
+
+    <TextView
+        android:id="@+id/txtBrancosFieldTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/brancosSecos" />
+    
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginTop="152dp"
+        android:src="@drawable/btn_ini" />
+
+    <TextView
+        android:id="@+id/txtTintosFieldThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/tintosSecos" />
+    
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/img_desc"
+        android:layout_marginTop="202dp"
+        android:src="@drawable/btn_ini" />
+
+    <TextView
+        android:id="@+id/txtTacasFieldFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="170dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/vinhosTacas" />
+
+</RelativeLayout>
